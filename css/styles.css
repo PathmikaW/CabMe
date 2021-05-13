@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'ShadowsIntoLight-Regular';
+  src: url('ShadowsIntoLight-Regular.ttf') format('truetype')
+}
+
+body {
+  font-family: ShadowsIntoLight-Regular;
+  margin: 0;
+}
+
+.header_login {
+  background-color: rgba(0, 0, 0, 1) !important;
+  color: white;
+}
+
+.header.content {
+  display: flex;
+}
+
+a.logo-link {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+ul.menu-list {
+  display: flex;
+}
+
+li.menu-item {
+  text-decoration: none;
+  list-style: none;
+  padding-right: 50px;
+  text-align: right;
+}
+
+a.menu-item-link {
+  text-decoration: none !important;
+  color: white;
+  font-size: 1.3em;
+}
+
+a.menu-item-link:hover {
+  color: antiquewhite;
+}
+
+img.logo-image {
+  width: 3em;
+  margin-left: 1em;
+}
+.position{
+    position: fixed;
+    background-color: black;
+   color: white;
+   bottom: 0;
+
+   left: 0;
+   width: 100%;
+  }
+.footer {
+
+    background-color: black;
+    color: white;
+    bottom: 0;
+    
+    left: 0;
+    width: 100%;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.footer_block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_content {
+    padding: 2em;
+}
